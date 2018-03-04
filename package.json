@@ -1,0 +1,28 @@
+{
+  "name": "algorithms__nicholas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/eslint/bin/eslint.js lib --fix && node ./node_modules/mocha/bin/mocha --recursive lib"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/algorithms-club-1eb9/Algorithms__nicholas.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/algorithms-club-1eb9/Algorithms__nicholas/issues"
+  },
+  "homepage": "https://github.com/algorithms-club-1eb9/Algorithms__nicholas#readme",
+  "devDependencies": {
+    "eslint": "^4.18.2",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.9.0",
+    "lodash": "^4.17.5",
+    "mocha": "^5.0.1",
+    "should": "^13.2.1"
+  }
+}

@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node ./node_modules/eslint/bin/eslint.js lib --fix && node ./node_modules/mocha/bin/mocha --recursive lib"
-
+    "test": "node ./node_modules/eslint/bin/eslint.js lib --fix && node ./node_modules/mocha/bin/mocha --recursive lib "
   },
   "repository": {
     "type": "git",
